@@ -1,4 +1,7 @@
 var i=0; // toimii indeksin alkuna
+var x=0;
+var y=0;
+var z=0;
 
 
 function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pelifunktio0-pelifunktio8, funktio muuttaa pelikentän arvoksi X, ottaa kyseisen napin pois käytöstä ja kutsuu voittotarkistus-funktiota
@@ -7,12 +10,12 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
     palauteparametri.nolla.value = "X"
     kommentoija(palauteparametri)
     poistanappi(palauteparametri)
-    tasuri(palauteparametri)
     
-    setTimeout(voittotarkistus, 1001, palauteparametri)
-    setTimeout(aktivoinappi, 1000, palauteparametri)
+    
+    setTimeout(voittotarkistus, 701, palauteparametri)
+    setTimeout(aktivoinappi, 700, palauteparametri)
 
-    setTimeout(napinpoistaja, 1003, palauteparametri)
+    setTimeout(napinpoistaja, 703, palauteparametri)
 
     var textarea = document.getElementById('tekstikentta');
     textarea.scrollTop = textarea.scrollHeight;
@@ -30,11 +33,11 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
         palauteparametri.yksi.value = "X"
         kommentoija(palauteparametri)
         poistanappi(palauteparametri)
-        tasuri(palauteparametri)
-        setTimeout(voittotarkistus, 1001, palauteparametri)
-        setTimeout(aktivoinappi, 1000, palauteparametri)
         
-        setTimeout(napinpoistaja, 1003, palauteparametri)
+        setTimeout(voittotarkistus, 701, palauteparametri)
+        setTimeout(aktivoinappi, 700, palauteparametri)
+        
+        setTimeout(napinpoistaja, 703, palauteparametri)
         
         var textarea = document.getElementById('tekstikentta');
         textarea.scrollTop = textarea.scrollHeight;
@@ -47,11 +50,11 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
             palauteparametri.kaksi.value = "X"
             kommentoija(palauteparametri)
             poistanappi(palauteparametri)
-            tasuri(palauteparametri)
-            setTimeout(voittotarkistus, 1001, palauteparametri)
-            setTimeout(aktivoinappi, 1000, palauteparametri)
             
-            setTimeout(napinpoistaja, 1003, palauteparametri)
+            setTimeout(voittotarkistus, 701, palauteparametri)
+            setTimeout(aktivoinappi, 700, palauteparametri)
+            
+            setTimeout(napinpoistaja, 703, palauteparametri)
             
             var textarea = document.getElementById('tekstikentta');
             textarea.scrollTop = textarea.scrollHeight;
@@ -66,11 +69,11 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                 palauteparametri.kolme.value = "X"
                 kommentoija(palauteparametri)
                 poistanappi(palauteparametri)
-                tasuri(palauteparametri)
-                setTimeout(voittotarkistus, 1001, palauteparametri)
-                setTimeout(aktivoinappi, 1000, palauteparametri)
+                
+                setTimeout(voittotarkistus, 701, palauteparametri)
+                setTimeout(aktivoinappi, 700, palauteparametri)
             
-                setTimeout(napinpoistaja, 1003, palauteparametri)
+                setTimeout(napinpoistaja, 703, palauteparametri)
                 
                 var textarea = document.getElementById('tekstikentta');
                 textarea.scrollTop = textarea.scrollHeight;
@@ -85,11 +88,11 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                     palauteparametri.nelja.value = "X"
                     kommentoija(palauteparametri)
                     poistanappi(palauteparametri)
-                    tasuri(palauteparametri)
-                    setTimeout(voittotarkistus, 1001, palauteparametri)
-                    setTimeout(aktivoinappi, 1000, palauteparametri)
                     
-                    setTimeout(napinpoistaja, 1003, palauteparametri)
+                    setTimeout(voittotarkistus, 701, palauteparametri)
+                    setTimeout(aktivoinappi, 700, palauteparametri)
+                    
+                    setTimeout(napinpoistaja, 703, palauteparametri)
                     
                     var textarea = document.getElementById('tekstikentta');
                     textarea.scrollTop = textarea.scrollHeight;
@@ -103,11 +106,11 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                         palauteparametri.viisi.value = "X"
                         kommentoija(palauteparametri)
                         poistanappi(palauteparametri)
-                        tasuri(palauteparametri)
-                        setTimeout(voittotarkistus, 1001, palauteparametri)
-                        setTimeout(aktivoinappi, 1000, palauteparametri)
                         
-                        setTimeout(napinpoistaja, 1003, palauteparametri)
+                        setTimeout(voittotarkistus, 701, palauteparametri)
+                        setTimeout(aktivoinappi, 700, palauteparametri)
+                        
+                        setTimeout(napinpoistaja, 703, palauteparametri)
                         
                         var textarea = document.getElementById('tekstikentta');
                         textarea.scrollTop = textarea.scrollHeight;
@@ -121,10 +124,10 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                             palauteparametri.kuusi.value = "X"
                             kommentoija(palauteparametri)
                             poistanappi(palauteparametri)
-                            tasuri(palauteparametri)
-                            setTimeout(voittotarkistus, 1001, palauteparametri)
-                            setTimeout(aktivoinappi, 1000, palauteparametri)
-                            setTimeout(napinpoistaja, 1003, palauteparametri)
+                            
+                            setTimeout(voittotarkistus, 701, palauteparametri)
+                            setTimeout(aktivoinappi, 700, palauteparametri)
+                            setTimeout(napinpoistaja, 703, palauteparametri)
                             
                             var textarea = document.getElementById('tekstikentta');
                             textarea.scrollTop = textarea.scrollHeight;
@@ -140,10 +143,10 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                                 palauteparametri.seitseman.value = "X"
                                 kommentoija(palauteparametri)
                                 poistanappi(palauteparametri)
-                                tasuri(palauteparametri)
-                                setTimeout(voittotarkistus, 1001, palauteparametri)
-                                setTimeout(aktivoinappi, 1000, palauteparametri)
-                                setTimeout(napinpoistaja, 1003, palauteparametri)
+                                
+                                setTimeout(voittotarkistus, 701, palauteparametri)
+                                setTimeout(aktivoinappi, 700, palauteparametri)
+                                setTimeout(napinpoistaja, 703, palauteparametri)
                                 
                                 var textarea = document.getElementById('tekstikentta');
                                 textarea.scrollTop = textarea.scrollHeight;
@@ -157,10 +160,10 @@ function pelifunktio0(palauteparametri)  // jokaisella napille on oma funktio pe
                                     palauteparametri.kahdeksan.value = "X"
                                     kommentoija(palauteparametri)
                                     poistanappi(palauteparametri)
-                                    tasuri(palauteparametri)
-                                    setTimeout(voittotarkistus, 1001, palauteparametri)
-                                    setTimeout(aktivoinappi, 1000, palauteparametri)
-                                    setTimeout(napinpoistaja, 1003, palauteparametri)
+                                    
+                                    setTimeout(voittotarkistus, 701, palauteparametri)
+                                    setTimeout(aktivoinappi, 700, palauteparametri)
+                                    setTimeout(napinpoistaja, 703, palauteparametri)
                                     
                                     var textarea = document.getElementById('tekstikentta');
                                     textarea.scrollTop = textarea.scrollHeight;
@@ -187,50 +190,21 @@ function poistanappi(palauteparametri) {  // poistaa kaikki napit käytöstä pe
 function tasuri(palauteparametri){  // funktio tunnistaa tasapelin ja tulostaa tietokoneen kommentit
                                             
                                             
-                                            i++
-                                            if (i==5){
+    
+                                           if (i==5){
                                                 poistanappi(palauteparametri)
                                                
             
                                                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Tasapeli!"
+                                                highscoreT(palauteparametri)
                                                 
                                                                 
                                                 
-                                                                
-                                                }
-            
-                                                else {
-            
                                                 
-                                                    var listanumero = Math.floor(Math.random() * 12);  // tehdään listasta sattunainen kommentti tietokoneelta
-            
-                                                   lista = [ 
-                                                    "Tällä minä sinut voitan!",
-                                                    "Ups, ei sen tuohon pitänyt mennä.",
-                                                    "Näetkö jo häviösi?",
-                                                    "Pelataan nopeasti, minulla alkaa kahvitauko.",
-                                                    "Tämä on tyhmä peli.",
-                                                    "Minua ei ole koulutettu tähän, en edes tiedä mitä teen!",
-                                                     "Mielummin katsoisin vaikka vuoden 2012 jääkiekon MM-Finaalia, kuin pelaisin tätä peliä.",
-                                                     "Vanha ja varma nurkkapaikka.",
-                                                    "Hmm, en muista miksi olen täällä.",
-                                                    "Minulle luvattiin mahdollisuus suorittaa Turingin testi, onko se heti tämän jälkeen?",
-                                                    "Jos klikkaat tuota ruksia välilehden kohdalta, en vaivaa sinua enää!",
-                                                    "Et tainnut tätä odottaakaan?"]
-            
-            
-            
-            
-                
-                                                    palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Minun vuoroni!"
-                                                    
-                                                    palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + lista[listanumero]
-            
-                                                    
-                                                    
-            
-                                                }
-                                            }                                        
+                                            }  
+                                        
+                                            var textarea = document.getElementById('tekstikentta');
+                                            textarea.scrollTop = textarea.scrollHeight;}                                     
 function kommentoija(palauteparametri){                              
                                                 
                                             var listanumero = Math.floor(Math.random() * 8);  // tehdään listasta sattunainen kommentti tietokoneelta
@@ -325,7 +299,7 @@ function tietokone(palauteparametri)  // tämä funktio toimii "tekoälynä", se
     
         if (valinta == 0 && palauteparametri.nolla.value == " "){
         palauteparametri.nolla.value = "O"
-        document.getElementById(nolla).disabled = true;
+        document.getElementById("nolla").disabled = true;
         
             }
 
@@ -499,7 +473,7 @@ function NYK(palauteparametri)  // funktiot ovat kaikille mahdollisille voittoma
 
 
 function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan pelaaja voittanut. Tämä funktio tarkistaa X-symbolit ja kutsuu funktiota joka tarkistaa O-symbolit. En saanut toimimaan näitä samassa funktiossa.
-
+    i++
     
     
 
@@ -507,12 +481,14 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
     
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
 
+        highscoreX(palauteparametri)
         document.getElementById("taulu").style.zIndex = "1";
 
         NYK(palauteparametri)
 
         poistanappi(palauteparametri)
-        
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
         
         
     }
@@ -521,9 +497,10 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
         document.getElementById("taulu").style.zIndex = "1";
         poistanappi(palauteparametri)
-        
+        highscoreX(palauteparametri)
         KSK(palauteparametri)
-        
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
        
         
     }
@@ -533,29 +510,35 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
         document.getElementById("taulu").style.zIndex = "1";
         KNV(palauteparametri)
-
+        highscoreX(palauteparametri)
         
         poistanappi(palauteparametri)
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
     }
     
     else if (palauteparametri.nolla.value == "X" && palauteparametri.kolme.value == "X" & palauteparametri.kuusi.value == "X"){
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
         document.getElementById("taulu").style.zIndex = "1";
         NKK(palauteparametri)
-
+        highscoreX(palauteparametri)
         
 
         poistanappi(palauteparametri)
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
     }
 
     else if (palauteparametri.yksi.value == "X" && palauteparametri.nelja.value == "X" & palauteparametri.seitseman.value == "X"){
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
         document.getElementById("taulu").style.zIndex = "1";
         YNS(palauteparametri)
-
+        highscoreX(palauteparametri)
         
         
         poistanappi(palauteparametri)
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
     }
 
     else if (palauteparametri.kaksi.value == "X" && palauteparametri.viisi.value == "X" & palauteparametri.kahdeksan.value == "X"){
@@ -563,7 +546,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
         poistanappi(palauteparametri)
         document.getElementById("taulu").style.zIndex = "1";
         KVK(palauteparametri)
-        
+        highscoreX(palauteparametri) 
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
                 
     }
 
@@ -571,9 +556,11 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
         poistanappi(palauteparametri)
         NNK(palauteparametri)
         document.getElementById("taulu").style.zIndex = "1";
-        
+        highscoreX(palauteparametri)
         
         palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' +  "Onnittelut, voitit pelin!"
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
         
     }
 
@@ -582,17 +569,51 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
         
         KNK(palauteparametri)
         document.getElementById("taulu").style.zIndex = "1";
-                
-        
+        highscoreX(palauteparametri)      
+        var textarea = document.getElementById('tekstikentta');
+        textarea.scrollTop = textarea.scrollHeight;
         poistanappi(palauteparametri)
     }
 
+    
+
+    
+
+
+    else if(i==5){
+            
+            tasuri(palauteparametri)
+                }
+
     else {
+        var listanumero = Math.floor(Math.random() * 12);  // tehdään listasta sattunainen kommentti tietokoneelta
+        
+                                               lista = [ 
+                                                "Tällä minä sinut voitan!",
+                                                "Ups, ei sen tuohon pitänyt mennä.",
+                                                "Näetkö jo häviösi?",
+                                                "Pelataan nopeasti, minulla alkaa kahvitauko.",
+                                                "Tämä on tyhmä peli.",
+                                                "Minua ei ole koulutettu tähän, en edes tiedä mitä teen!",
+                                                 "Mielummin katsoisin vaikka vuoden 2012 jääkiekon MM-Finaalia, kuin pelaisin tätä peliä.",
+                                                 "Vanha ja varma nurkkapaikka.",
+                                                "Hmm, en muista miksi olen täällä.",
+                                                "Minulle luvattiin mahdollisuus suorittaa Turingin testi, onko se heti tämän jälkeen?",
+                                                "Jos klikkaat tuota ruksia välilehden kohdalta, en vaivaa sinua enää!",
+                                                "Et tainnut tätä odottaakaan?"]
+        
+        
+        
+        
+            
+                                                palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Minun vuoroni!"
+                                                
+                                                palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + lista[listanumero]
         tietokone(palauteparametri)
         Otarkistus(palauteparametri)
         
-        //tasuri(palauteparametri)
-        palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Sinun vuorosi!"
+        
+        
         
 
         var textarea = document.getElementById('tekstikentta');
@@ -607,6 +628,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
             palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
             NYK(palauteparametri)
             poistanappi(palauteparametri)
+            highscoreO(palauteparametri)
+            var textarea = document.getElementById('tekstikentta');
+            textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.kuusi.value == "O" && palauteparametri.seitseman.value == "O" & palauteparametri.kahdeksan.value == "O"){
@@ -614,6 +638,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 KSK(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.kolme.value == "O" && palauteparametri.nelja.value == "O" & palauteparametri.viisi.value == "O"){
@@ -621,6 +648,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 KNV(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
             
             else if (palauteparametri.nolla.value == "O" && palauteparametri.kolme.value == "O" & palauteparametri.kuusi.value == "O"){
@@ -628,6 +658,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 NKK(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.yksi.value == "O" && palauteparametri.nelja.value == "O" & palauteparametri.seitseman.value == "O"){
@@ -635,6 +668,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 YNS(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.kaksi.value == "O" && palauteparametri.viisi.value == "O" & palauteparametri.kahdeksan.value == "O"){
@@ -642,6 +678,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 KVK(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.nolla.value == "O" && palauteparametri.nelja.value == "O" & palauteparametri.kahdeksan.value == "O"){
@@ -649,6 +688,9 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 NNK(palauteparametri)
                 poistanappi(palauteparametri)
+                highscoreO(palauteparametri)
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight;
             }
 
             else if (palauteparametri.kaksi.value == "O" && palauteparametri.nelja.value == "O" & palauteparametri.kuusi.value == "O"){
@@ -656,7 +698,13 @@ function voittotarkistus(palauteparametri){  // funktio tarkistaa onko kumpikaan
                 palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Hävisit pelin, parempi onni ensi kerralla!"
                 KNK(palauteparametri)
                 poistanappi(palauteparametri)
-                
+                highscoreO(palauteparametri)   
+                var textarea = document.getElementById('tekstikentta');
+                textarea.scrollTop = textarea.scrollHeight; 
+            }
+
+            else {
+                palauteparametri.tekstikentta.value = palauteparametri.tekstikentta.value + '\n' + "Sinun vuorosi!"
             }
 
             
@@ -869,9 +917,29 @@ function peliviivat(palauteparametri)
                                         
                                                 }
 
-function highscore(palauteparametri){
+function highscoreX(palauteparametri){
+    x++
 
-}                                                
+    
+
+    palauteparametri.pelaaja.value=x
+
+    }       
+
+    function highscoreT(palauteparametri){
+        y++
+        
+        palauteparametri.tasuri.value=y 
+        
+        }                                                
+
+        function highscoreO(palauteparametri){
+            z++
+            
+            palauteparametri.tietokone.value=z 
+            
+            }                                                
+            
                                 
                                 
                                 
