@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="UTF-8">
+<head>
+    <title>Muistipeli</title>
+    <script src="muistipeli.js">    </script> 
+</head>
+
+<body
+
+
+
+<p>   <input type="button" value=" " style="height:80px;width:80px;position:absolute; top:20px; left:650px; font-size:25px;  border-color: black;"   
+    
+    id=aloitapeli  onclick="valinnat1(document.pelikentta); " ></p> <!-- nappi ei toimi formin sisällä? -->
+
+   
+    
+    
+    <form name="pelikentta">
+
+            
+            
+            
+    
+        
+        
+        <p>   <input type="button" onclick="napinpaino0"  style="height:40px;width:40px;position:absolute; top:150px; left:440px; font-size:25px; background-color: transparent;  border-color: transparent;" 
+            
+            value=" " 
+            
+            id=nolla ></p> 
+
+        <p>   <input type="button" onclick="napinpaino1" style="height:40px;width:40px;position:absolute; top:150px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=yksi ></p>
+            
+        <p>   <input type="button" onclick="napinpaino2" style="height:40px;width:40px;position:absolute; top:150px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksi ></p> 
+
+        <p>   <input type="button" onclick="napinpaino3" style="height:40px;width:40px;position:absolute; top:150px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolme ></p>
+            
+        <p>   <input type="button" onclick="napinpaino4" style="height:40px;width:40px;position:absolute; top:150px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=nelja ></p> 
+
+        <p>   <input type="button" onclick="napinpaino5" style="height:40px;width:40px;position:absolute; top:150px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisi ></p>
+            
+        <p>   <input type="button" onclick="napinpaino6" style="height:40px;width:40px;position:absolute; top:150px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusi ></p> 
+
+        <p>   <input type="button" onclick="napinpaino7" style="height:40px;width:40px;position:absolute; top:150px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=seitseman ></p>                         
+      
+
+
+        <p>   <input type="button" onclick="napinpaino8"  style="height:40px;width:40px;position:absolute; top:210px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kahdeksan ></p> 
+
+        <p>   <input type="button" onclick="napinpaino9" style="height:40px;width:40px;position:absolute; top:210px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=yhdeksan ></p>
+            
+        <p>   <input type="button" onclick="napinpaino10" style="height:40px;width:40px;position:absolute; top:210px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kymmenen ></p> 
+
+        <p>   <input type="button" onclick="napinpaino11" style="height:40px;width:40px;position:absolute; top:210px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=yksit ></p>
+            
+        <p>   <input type="button" onclick="napinpaino12" style="height:40px;width:40px;position:absolute; top:210px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksit ></p> 
+
+        <p>   <input type="button" onclick="napinpaino13" style="height:40px;width:40px;position:absolute; top:210px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmet ></p>
+            
+        <p>   <input type="button" onclick="napinpaino14" style="height:40px;width:40px;position:absolute; top:210px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljat ></p> 
+
+        <p>   <input type="button" onclick="napinpaino15" style="height:40px;width:40px;position:absolute; top:210px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisit ></p>
+
+
+
+        <p>   <input type="button" onclick="napinpaino16"  style="height:40px;width:40px;position:absolute; top:270px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusit ></p> 
+
+        <p>   <input type="button" onclick="napinpaino17" style="height:40px;width:40px;position:absolute; top:270px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=seitsemant ></p>
+            
+        <p>   <input type="button" onclick="napinpaino18(document.pelikentta)" style="height:40px;width:40px;position:absolute; top:270px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kahdeksant ></p> 
+
+        <p>   <input type="button" onclick="napinpaino19" style="height:40px;width:40px;position:absolute; top:270px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=yhdeksant ></p>
+            
+        <p>   <input type="button" onclick="napinpaino20" style="height:40px;width:40px;position:absolute; top:270px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik ></p> 
+
+        <p>   <input type="button" onclick="napinpaino21" style="height:40px;width:40px;position:absolute; top:270px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik1 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino22" style="height:40px;width:40px;position:absolute; top:270px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik2 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino23" style="height:40px;width:40px;position:absolute; top:270px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik3 ></p>                         
+      
+
+
+        <p>   <input type="button" onclick="napinpaino24"  style="height:40px;width:40px;position:absolute; top:330px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik4 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino25" style="height:40px;width:40px;position:absolute; top:330px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik5 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino26" style="height:40px;width:40px;position:absolute; top:330px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik6 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino27" style="height:40px;width:40px;position:absolute; top:330px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik7 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino28" style="height:40px;width:40px;position:absolute; top:330px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik8 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino29" style="height:40px;width:40px;position:absolute; top:330px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kaksik9 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino30" style="height:40px;width:40px;position:absolute; top:330px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek ></p> 
+
+        <p>   <input type="button" onclick="napinpaino31" style="height:40px;width:40px;position:absolute; top:330px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek1 ></p>
+
+
+
+        <p>   <input type="button" onclick="napinpaino32"  style="height:40px;width:40px;position:absolute; top:390px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek2 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino33" style="height:40px;width:40px;position:absolute; top:390px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek3 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino34" style="height:40px;width:40px;position:absolute; top:390px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek4 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino35" style="height:40px;width:40px;position:absolute; top:390px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek5 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino36" style="height:40px;width:40px;position:absolute; top:390px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek6 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino37" style="height:40px;width:40px;position:absolute; top:390px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek7 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino38" style="height:40px;width:40px;position:absolute; top:390px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek8 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino39" style="height:40px;width:40px;position:absolute; top:390px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kolmek9 ></p>                         
+      
+
+
+        <p>   <input type="button" onclick="napinpaino40"  style="height:40px;width:40px;position:absolute; top:450px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak ></p> 
+
+        <p>   <input type="button" onclick="napinpaino41" style="height:40px;width:40px;position:absolute; top:450px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak1 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino42" style="height:40px;width:40px;position:absolute; top:450px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak2 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino43" style="height:40px;width:40px;position:absolute; top:450px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak3 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino44" style="height:40px;width:40px;position:absolute; top:450px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak4 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino45" style="height:40px;width:40px;position:absolute; top:450px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak5 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino46" style="height:40px;width:40px;position:absolute; top:450px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak6 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino47" style="height:40px;width:40px;position:absolute; top:450px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak7 ></p>
+
+
+
+        <p>   <input type="button" onclick="napinpaino48"  style="height:40px;width:40px;position:absolute; top:510px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak8 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino49" style="height:40px;width:40px;position:absolute; top:510px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=neljak9 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino50" style="height:40px;width:40px;position:absolute; top:510px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik ></p> 
+
+        <p>   <input type="button" onclick="napinpaino51" style="height:40px;width:40px;position:absolute; top:510px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik1 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino52" style="height:40px;width:40px;position:absolute; top:510px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik2 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino53" style="height:40px;width:40px;position:absolute; top:510px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik3 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino54" style="height:40px;width:40px;position:absolute; top:510px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik4 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino55" style="height:40px;width:40px;position:absolute; top:510px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik5 ></p>                         
+      
+
+
+        <p>   <input type="button" onclick="napinpaino56"  style="height:40px;width:40px;position:absolute; top:570px; left:440px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik6 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino57" style="height:40px;width:40px;position:absolute; top:570px; left:500px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik7 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino58" style="height:40px;width:40px;position:absolute; top:570px; left:560px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik8 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino59" style="height:40px;width:40px;position:absolute; top:570px; left:620px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=viisik9 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino60" style="height:40px;width:40px;position:absolute; top:570px; left:680px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusik ></p> 
+
+        <p>   <input type="button" onclick="napinpaino61" style="height:40px;width:40px;position:absolute; top:570px; left:740px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusik1 ></p>
+            
+        <p>   <input type="button" onclick="napinpaino62" style="height:40px;width:40px;position:absolute; top:570px; left:800px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusik2 ></p> 
+
+        <p>   <input type="button" onclick="napinpaino63" style="height:40px;width:40px;position:absolute; top:570px; left:860px; font-size:25px;  background-color: transparent;  border-color: transparent;" value="" 
+            
+            id=kuusik3 ></p>
+        
+            
+         
+    </form>
+    
+
+</body>
+</html>
+
+       
